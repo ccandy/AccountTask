@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PersonalNavViewController.h
 //  AccountTask
 //
 //  Created by hua dong on 2016-05-29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PersonalNavViewController : UINavigationController
 
 @end
-

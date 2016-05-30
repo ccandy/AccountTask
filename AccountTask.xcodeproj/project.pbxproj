@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		7F662D081CFBA6660050257D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D071CFBA6660050257D /* main.m */; };
 		7F662D0B1CFBA6660050257D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D0A1CFBA6660050257D /* AppDelegate.m */; };
-		7F662D0E1CFBA6660050257D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D0D1CFBA6660050257D /* ViewController.m */; };
 		7F662D131CFBA6660050257D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D121CFBA6660050257D /* Assets.xcassets */; };
 		7F662D161CFBA6660050257D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D141CFBA6660050257D /* LaunchScreen.storyboard */; };
 		7F662D211CFBA6660050257D /* AccountTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D201CFBA6660050257D /* AccountTaskTests.m */; };
 		7F662D2C1CFBA6660050257D /* AccountTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D2B1CFBA6660050257D /* AccountTaskUITests.m */; };
+		7F662D3F1CFBA8D20050257D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D3D1CFBA8D20050257D /* RootViewController.m */; };
+		7F662D401CFBA8D20050257D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D3E1CFBA8D20050257D /* RootViewController.xib */; };
+		7F662D471CFBB1360050257D /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D451CFBB1360050257D /* PersonalViewController.m */; };
+		7F662D481CFBB1360050257D /* PersonalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D461CFBB1360050257D /* PersonalViewController.xib */; };
+		7F662D4D1CFBB2CB0050257D /* UITableView+RegNibs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D4C1CFBB2CB0050257D /* UITableView+RegNibs.m */; };
+		7F662D551CFBB63F0050257D /* PersonalTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D531CFBB63F0050257D /* PersonalTableCell.m */; };
+		7F662D561CFBB63F0050257D /* PersonalTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D541CFBB63F0050257D /* PersonalTableCell.xib */; };
+		7F662D5E1CFBC0100050257D /* PersonalNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D5D1CFBC0100050257D /* PersonalNavViewController.m */; };
+		7F662D621CFBC5930050257D /* UIColor+AccColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D611CFBC5930050257D /* UIColor+AccColor.m */; };
+		7F662D691CFBCB3B0050257D /* SpendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F662D671CFBCB3B0050257D /* SpendingViewController.m */; };
+		7F662D6A1CFBCB3B0050257D /* SpendingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F662D681CFBCB3B0050257D /* SpendingViewController.xib */; };
 		AC10BA27C6B7C4718CFFBB5E /* libPods-AccountTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA517DB24CCBCA321078936 /* libPods-AccountTask.a */; };
 		BACCDDB8C93578FB58D47B88 /* libPods-AccountTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8210FAC3F12896D8C925687 /* libPods-AccountTaskTests.a */; };
 		DEDF5B0DB870582C95437882 /* libPods-AccountTaskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3F221057DC82B26EF593D4 /* libPods-AccountTaskUITests.a */; };
@@ -44,8 +54,6 @@
 		7F662D071CFBA6660050257D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F662D091CFBA6660050257D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F662D0A1CFBA6660050257D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F662D0C1CFBA6660050257D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7F662D0D1CFBA6660050257D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7F662D121CFBA6660050257D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F662D151CFBA6660050257D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F662D171CFBA6660050257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +63,26 @@
 		7F662D271CFBA6660050257D /* AccountTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F662D2B1CFBA6660050257D /* AccountTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTaskUITests.m; sourceTree = "<group>"; };
 		7F662D2D1CFBA6660050257D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F662D3C1CFBA8D20050257D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Controller/RootViewController/RootViewController.h; sourceTree = "<group>"; };
+		7F662D3D1CFBA8D20050257D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Controller/RootViewController/RootViewController.m; sourceTree = "<group>"; };
+		7F662D3E1CFBA8D20050257D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = Controller/RootViewController/RootViewController.xib; sourceTree = "<group>"; };
+		7F662D441CFBB1360050257D /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalViewController.h; path = Controller/PersonalViewController/PersonalViewController.h; sourceTree = "<group>"; };
+		7F662D451CFBB1360050257D /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalViewController.m; path = Controller/PersonalViewController/PersonalViewController.m; sourceTree = "<group>"; };
+		7F662D461CFBB1360050257D /* PersonalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalViewController.xib; path = Controller/PersonalViewController/PersonalViewController.xib; sourceTree = "<group>"; };
+		7F662D4B1CFBB2CB0050257D /* UITableView+RegNibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableView+RegNibs.h"; path = "Categories/UITableView/UITableView+RegNibs.h"; sourceTree = "<group>"; };
+		7F662D4C1CFBB2CB0050257D /* UITableView+RegNibs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableView+RegNibs.m"; path = "Categories/UITableView/UITableView+RegNibs.m"; sourceTree = "<group>"; };
+		7F662D4F1CFBB4E80050257D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = System/PrefixHeader.pch; sourceTree = "<group>"; };
+		7F662D521CFBB63F0050257D /* PersonalTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalTableCell.h; path = TableViewCell/PersonalTableCell/PersonalTableCell.h; sourceTree = "<group>"; };
+		7F662D531CFBB63F0050257D /* PersonalTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalTableCell.m; path = TableViewCell/PersonalTableCell/PersonalTableCell.m; sourceTree = "<group>"; };
+		7F662D541CFBB63F0050257D /* PersonalTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PersonalTableCell.xib; path = TableViewCell/PersonalTableCell/PersonalTableCell.xib; sourceTree = "<group>"; };
+		7F662D591CFBBB960050257D /* AccTableCellProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccTableCellProtocal.h; path = Protocal/AccTableCell/AccTableCellProtocal.h; sourceTree = "<group>"; };
+		7F662D5C1CFBC0100050257D /* PersonalNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonalNavViewController.h; path = Controller/PersonalViewController/PersonalNavViewController/PersonalNavViewController.h; sourceTree = "<group>"; };
+		7F662D5D1CFBC0100050257D /* PersonalNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonalNavViewController.m; path = Controller/PersonalViewController/PersonalNavViewController/PersonalNavViewController.m; sourceTree = "<group>"; };
+		7F662D601CFBC5930050257D /* UIColor+AccColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+AccColor.h"; path = "Categories/UIColor/UIColor+AccColor.h"; sourceTree = "<group>"; };
+		7F662D611CFBC5930050257D /* UIColor+AccColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AccColor.m"; path = "Categories/UIColor/UIColor+AccColor.m"; sourceTree = "<group>"; };
+		7F662D661CFBCB3B0050257D /* SpendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpendingViewController.h; path = Controller/SpendingViewController/SpendingViewController.h; sourceTree = "<group>"; };
+		7F662D671CFBCB3B0050257D /* SpendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpendingViewController.m; path = Controller/SpendingViewController/SpendingViewController.m; sourceTree = "<group>"; };
+		7F662D681CFBCB3B0050257D /* SpendingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SpendingViewController.xib; path = Controller/SpendingViewController/SpendingViewController.xib; sourceTree = "<group>"; };
 		8D3F221057DC82B26EF593D4 /* libPods-AccountTaskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountTaskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6D29423BB09E93D13D7D67 /* Pods-AccountTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountTaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccountTaskUITests/Pods-AccountTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B8210FAC3F12896D8C925687 /* libPods-AccountTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,10 +144,13 @@
 		7F662D051CFBA6660050257D /* AccountTask */ = {
 			isa = PBXGroup;
 			children = (
-				7F662D091CFBA6660050257D /* AppDelegate.h */,
-				7F662D0A1CFBA6660050257D /* AppDelegate.m */,
-				7F662D0C1CFBA6660050257D /* ViewController.h */,
-				7F662D0D1CFBA6660050257D /* ViewController.m */,
+				7F662D571CFBBB4E0050257D /* Protocal */,
+				7F662D501CFBB5D70050257D /* TableViewCell */,
+				7F662D4E1CFBB4BF0050257D /* System */,
+				7F662D491CFBB26C0050257D /* Categories */,
+				7F662D411CFBB0C20050257D /* Service */,
+				7F662D3A1CFBA84C0050257D /* Models */,
+				7F662D391CFBA8460050257D /* Controllers */,
 				7F662D121CFBA6660050257D /* Assets.xcassets */,
 				7F662D141CFBA6660050257D /* LaunchScreen.storyboard */,
 				7F662D171CFBA6660050257D /* Info.plist */,
@@ -152,6 +183,149 @@
 				7F662D2D1CFBA6660050257D /* Info.plist */,
 			);
 			path = AccountTaskUITests;
+			sourceTree = "<group>";
+		};
+		7F662D391CFBA8460050257D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D5A1CFBBE270050257D /* SpendingViewController */,
+				7F662D431CFBB1160050257D /* PersonalViewController */,
+				7F662D3B1CFBA8730050257D /* RootViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7F662D3A1CFBA84C0050257D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7F662D3B1CFBA8730050257D /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D3C1CFBA8D20050257D /* RootViewController.h */,
+				7F662D3D1CFBA8D20050257D /* RootViewController.m */,
+				7F662D3E1CFBA8D20050257D /* RootViewController.xib */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		7F662D411CFBB0C20050257D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D421CFBB0CD0050257D /* System */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		7F662D421CFBB0CD0050257D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D091CFBA6660050257D /* AppDelegate.h */,
+				7F662D0A1CFBA6660050257D /* AppDelegate.m */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		7F662D431CFBB1160050257D /* PersonalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D5B1CFBBFDD0050257D /* PersonalNavViewController */,
+				7F662D441CFBB1360050257D /* PersonalViewController.h */,
+				7F662D451CFBB1360050257D /* PersonalViewController.m */,
+				7F662D461CFBB1360050257D /* PersonalViewController.xib */,
+			);
+			name = PersonalViewController;
+			sourceTree = "<group>";
+		};
+		7F662D491CFBB26C0050257D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D5F1CFBC5750050257D /* UIColor */,
+				7F662D4A1CFBB27B0050257D /* UITableView */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7F662D4A1CFBB27B0050257D /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D4B1CFBB2CB0050257D /* UITableView+RegNibs.h */,
+				7F662D4C1CFBB2CB0050257D /* UITableView+RegNibs.m */,
+			);
+			name = UITableView;
+			sourceTree = "<group>";
+		};
+		7F662D4E1CFBB4BF0050257D /* System */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D4F1CFBB4E80050257D /* PrefixHeader.pch */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		7F662D501CFBB5D70050257D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D511CFBB5E90050257D /* PersonalTableCell */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7F662D511CFBB5E90050257D /* PersonalTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D521CFBB63F0050257D /* PersonalTableCell.h */,
+				7F662D531CFBB63F0050257D /* PersonalTableCell.m */,
+				7F662D541CFBB63F0050257D /* PersonalTableCell.xib */,
+			);
+			name = PersonalTableCell;
+			sourceTree = "<group>";
+		};
+		7F662D571CFBBB4E0050257D /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D581CFBBB550050257D /* AccTableCell */,
+			);
+			name = Protocal;
+			sourceTree = "<group>";
+		};
+		7F662D581CFBBB550050257D /* AccTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D591CFBBB960050257D /* AccTableCellProtocal.h */,
+			);
+			name = AccTableCell;
+			sourceTree = "<group>";
+		};
+		7F662D5A1CFBBE270050257D /* SpendingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D661CFBCB3B0050257D /* SpendingViewController.h */,
+				7F662D671CFBCB3B0050257D /* SpendingViewController.m */,
+				7F662D681CFBCB3B0050257D /* SpendingViewController.xib */,
+			);
+			name = SpendingViewController;
+			sourceTree = "<group>";
+		};
+		7F662D5B1CFBBFDD0050257D /* PersonalNavViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D5C1CFBC0100050257D /* PersonalNavViewController.h */,
+				7F662D5D1CFBC0100050257D /* PersonalNavViewController.m */,
+			);
+			name = PersonalNavViewController;
+			sourceTree = "<group>";
+		};
+		7F662D5F1CFBC5750050257D /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				7F662D601CFBC5930050257D /* UIColor+AccColor.h */,
+				7F662D611CFBC5930050257D /* UIColor+AccColor.m */,
+			);
+			name = UIColor;
 			sourceTree = "<group>";
 		};
 		832E6D563E33785541F18CF8 /* Frameworks */ = {
@@ -252,6 +426,7 @@
 				TargetAttributes = {
 					7F662D021CFBA6660050257D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VAR5VA7LT3;
 					};
 					7F662D1B1CFBA6660050257D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -290,6 +465,10 @@
 			files = (
 				7F662D161CFBA6660050257D /* LaunchScreen.storyboard in Resources */,
 				7F662D131CFBA6660050257D /* Assets.xcassets in Resources */,
+				7F662D6A1CFBCB3B0050257D /* SpendingViewController.xib in Resources */,
+				7F662D481CFBB1360050257D /* PersonalViewController.xib in Resources */,
+				7F662D401CFBA8D20050257D /* RootViewController.xib in Resources */,
+				7F662D561CFBB63F0050257D /* PersonalTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,9 +616,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F662D0E1CFBA6660050257D /* ViewController.m in Sources */,
 				7F662D0B1CFBA6660050257D /* AppDelegate.m in Sources */,
 				7F662D081CFBA6660050257D /* main.m in Sources */,
+				7F662D551CFBB63F0050257D /* PersonalTableCell.m in Sources */,
+				7F662D621CFBC5930050257D /* UIColor+AccColor.m in Sources */,
+				7F662D4D1CFBB2CB0050257D /* UITableView+RegNibs.m in Sources */,
+				7F662D471CFBB1360050257D /* PersonalViewController.m in Sources */,
+				7F662D5E1CFBC0100050257D /* PersonalNavViewController.m in Sources */,
+				7F662D3F1CFBA8D20050257D /* RootViewController.m in Sources */,
+				7F662D691CFBCB3B0050257D /* SpendingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +758,8 @@
 			baseConfigurationReference = C2E919A2B718C46BEC485447 /* Pods-AccountTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccountTask/System/PrefixHeader.pch";
 				INFOPLIST_FILE = AccountTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andy.AccountTask;
@@ -585,6 +772,8 @@
 			baseConfigurationReference = 52C883F4B88036E09B357192 /* Pods-AccountTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AccountTask/System/PrefixHeader.pch";
 				INFOPLIST_FILE = AccountTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andy.AccountTask;
